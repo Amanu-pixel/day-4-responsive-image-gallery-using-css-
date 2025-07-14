@@ -1,0 +1,21 @@
+.Gallery
+{
+    display: inline-block;
+    border:1px solid hsl(0, 2%, 72%) ;
+    margin: 3px;
+    width: 150px;
+}
+.Gallery .description
+{
+padding:5px;
+text-align: center;
+
+}
+.Gallery:hover
+{
+    border: 1px solid hsl(0, 0, 20%);
+}
+.Gallery img{
+    height: auto;
+    width: 100%;
+}
